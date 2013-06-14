@@ -1,0 +1,1 @@
+TeraOVR is a minimalistic wrapper for the Oculus SDK so it can be used in the context of Terasology. 
