@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="tera-ovr:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/tera_ovr_jar</output-path>
+    <root id="archive" name="tera-ovr.jar">
+      <element id="module-output" name="TeraOVR" />
+    </root>
+  </artifact>
+</component>

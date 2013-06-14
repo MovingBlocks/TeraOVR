@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tera-ovr:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="733798bf-8375-4bcc-b1cc-58190ae20095" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cpp/TeraOVR/TeraOVR.cpp" afterPath="$PROJECT_DIR$/src/cpp/TeraOVR/TeraOVR.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cpp/TeraOVR/TeraOVR.h" afterPath="$PROJECT_DIR$/src/cpp/TeraOVR/TeraOVR.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/org/terasology/TeraOVR.java" afterPath="$PROJECT_DIR$/src/java/org/terasology/TeraOVR.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cpp/TeraOVR.sln" afterPath="$PROJECT_DIR$/src/cpp/TeraOVR.sln" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cpp/TeraOVR/TeraOVR.vcxproj" afterPath="$PROJECT_DIR$/src/cpp/TeraOVR/TeraOVR.vcxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/tera_ovr_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TeraOVR.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371216176867" ignored="false" />
     <file path="/TeraOVR.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371220973051" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/misc.xml" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371216261000" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371221036004" ignored="false" />
     <file path="/a.dummy" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371220825923" ignored="false" />
+    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/logic/manager/DefaultRenderingProcess.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371221855164" ignored="false" />
+    <file path="/DefaultRenderingProcess.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371221811754" ignored="false" />
+    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/game/modes/StateSinglePlayer.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371221913181" ignored="false" />
+    <file path="/StateSinglePlayer.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371221901273" ignored="false" />
+    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/rendering/oculusVr/OculusVrHelper.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371221955874" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +84,7 @@
       <file leaf-file-name="TeraOVR.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/org/terasology/TeraOVR.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="63" selection-start="2409" selection-end="2409" vertical-scroll-proportion="0.92391306">
+            <state line="39" column="17" selection-start="1595" selection-end="1595" vertical-scroll-proportion="0.3167702">
               <folding />
             </state>
           </provider>
@@ -109,8 +115,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="360" />
-    <option name="y" value="37" />
+    <option name="x" value="2" />
+    <option name="y" value="2" />
     <option name="width" value="1918" />
     <option name="height" value="1158" />
   </component>
@@ -199,17 +205,56 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeraOVR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeraOVR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeraOVR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeraOVR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -338,6 +383,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="733798bf-8375-4bcc-b1cc-58190ae20095" name="Default" comment="" />
@@ -347,7 +409,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="360" y="37" width="1918" height="1158" extended-state="0" />
+    <frame x="2" y="2" width="1918" height="1158" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -439,11 +501,88 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/java/org/terasology/TeraOVR.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="63" selection-start="2409" selection-end="2409" vertical-scroll-proportion="0.92391306">
+        <state line="39" column="17" selection-start="1595" selection-end="1595" vertical-scroll-proportion="0.3167702">
           <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>tera-ovr:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TeraOVR</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
