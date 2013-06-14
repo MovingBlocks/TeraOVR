@@ -26,6 +26,7 @@ public class TeraOVR {
     public static native int getVersion();
     public static native int getHResolution();
     public static native int getVResolution();
+    public static native float getHScreenSize();
     public static native float getVScreenSize();
     public static native float getVScreenCenter();
     public static native float getEyeToScreenDistance();
@@ -57,6 +58,7 @@ public class TeraOVR {
         System.out.println(getVersion());
         System.out.println(getHResolution());
         System.out.println(getVResolution());
+        System.out.println(getHScreenSize());
         System.out.println(getVScreenSize());
         System.out.println(getVScreenCenter());
         System.out.println(getEyeToScreenDistance());

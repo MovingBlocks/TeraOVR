@@ -103,6 +103,12 @@ JNIEXPORT jint JNICALL Java_org_terasology_TeraOVR_getVResolution
   return g_Info.VResolution;
 }
 
+JNIEXPORT jfloat JNICALL Java_org_terasology_TeraOVR_getHScreenSize
+  (JNIEnv *, jclass)
+{
+  return g_Info.HScreenSize;
+}
+
 JNIEXPORT jfloat JNICALL Java_org_terasology_TeraOVR_getVScreenSize
   (JNIEnv *, jclass)
 {
