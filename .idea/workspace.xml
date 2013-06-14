@@ -7,14 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="733798bf-8375-4bcc-b1cc-58190ae20095" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/tera_ovr_jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/org/terasology/TeraOVR.java" afterPath="$PROJECT_DIR$/src/java/org/terasology/TeraOVR.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cpp/TeraOVR/TeraOVR.vcxproj" afterPath="$PROJECT_DIR$/src/cpp/TeraOVR/TeraOVR.vcxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TeraOVR.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371216176867" ignored="false" />
+    <file path="/Dummy.txt" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371222262869" ignored="false" />
     <file path="/TeraOVR.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371222207471" ignored="false" />
     <file path="/a.dummy" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371220825923" ignored="false" />
     <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/logic/manager/DefaultRenderingProcess.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371221855164" ignored="false" />
@@ -81,17 +79,7 @@
     <favorites_list name="TeraOVR" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TeraOVR.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/java/org/terasology/TeraOVR.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="35" selection-start="2700" selection-end="2700" vertical-scroll-proportion="0.98447204">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -407,10 +395,15 @@
       <created>1371216173902</created>
       <updated>1371216173902</updated>
     </task>
+    <task id="LOCAL-00001" summary="Tweaked sample application.">
+      <created>1371222266650</created>
+      <updated>1371222266650</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="2" width="1918" height="1158" extended-state="0" />
+    <frame x="2" y="2" width="1918" height="1158" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -477,7 +470,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tweaked sample application." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -491,6 +484,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Tweaked sample application." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -502,7 +496,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/java/org/terasology/TeraOVR.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="35" selection-start="2700" selection-end="2700" vertical-scroll-proportion="0.98447204">
+        <state line="58" column="50" selection-start="2204" selection-end="2204" vertical-scroll-proportion="1.5310559">
           <folding />
         </state>
       </provider>
