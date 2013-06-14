@@ -25,111 +25,174 @@
 using namespace std;
 using namespace OVR;
 
-Ptr<DeviceManager>pManager;
-Ptr<HMDDevice> pHMD;
-Ptr<SensorDevice>	pSensor;
-SensorFusion FusionResult;
-HMDInfo Info;
-bool InfoLoaded;
+Ptr<DeviceManager> g_Manager;
+Ptr<HMDDevice> g_HMD;
+Ptr<SensorDevice>	g_Sensor;
+SensorFusion g_FusionResult;
+HMDInfo g_Info;
+bool g_InfoLoaded;
 
 JNIEXPORT void JNICALL Java_org_terasology_TeraOVR_initSDK
-  (JNIEnv *, jclass)
+  (JNIEnv * p_Env, jclass p_Class)
 {
   System::Init();
 
-  pManager = *DeviceManager::Create();
+  g_Manager = *DeviceManager::Create();
+  g_HMD = *g_Manager->EnumerateDevices<HMDDevice>().CreateDevice();
 
-  pHMD = *pManager->EnumerateDevices<HMDDevice>().CreateDevice();
-
-  if (pHMD)
+  if (g_HMD)
   {
-    InfoLoaded = pHMD->GetDeviceInfo(&Info);
+    g_InfoLoaded = g_HMD->GetDeviceInfo(&g_Info);
 
-    pSensor = *pHMD->GetSensor();
+    g_Sensor = *g_HMD->GetSensor();
   }
   else
   {
-    pSensor = *pManager->EnumerateDevices<SensorDevice>().CreateDevice();
+    g_Sensor = *g_Manager->EnumerateDevices<SensorDevice>().CreateDevice();
   }
 
-  if (pSensor)
+  if (g_Sensor)
   {
-    FusionResult.AttachToSensor(pSensor);
+    g_FusionResult.AttachToSensor(g_Sensor);
   }
 }
 
-void Clear()
+JNIEXPORT void JNICALL Java_org_terasology_TeraOVR_clear
+  (JNIEnv * p_Env, jclass p_Class)
 {
-  pSensor.Clear();
-  pHMD.Clear();
-  pManager.Clear();
+  g_Sensor.Clear();
+  g_HMD.Clear();
+  g_Manager.Clear();
 
   System::Destroy();
 }
 
-void Output()
+JNIEXPORT jstring JNICALL Java_org_terasology_TeraOVR_getDisplayDeviceName
+  (JNIEnv * p_Env, jclass p_Class)
 {
-  cout << "----- Oculus Console -----" << endl;
+  return p_Env->NewStringUTF(g_Info.DisplayDeviceName);
+}
 
-  if (pHMD)
-  {
-    cout << " [x] HMD Found" << endl;
-  }
-  else
-  {
-    cout << " [ ] HMD Not Found" << endl;
-  }
+JNIEXPORT jstring JNICALL Java_org_terasology_TeraOVR_getProductName
+  (JNIEnv * p_Env, jclass p_Class)
+{
+  return p_Env->NewStringUTF(g_Info.ProductName);
+}
 
-  if (pSensor)
-  {
-    cout << " [x] Sensor Found" << endl;
-  }
-  else
-  {
-    cout << " [ ] Sensor Not Found" << endl;
-  }
+JNIEXPORT jstring JNICALL Java_org_terasology_TeraOVR_getManufacturer
+  (JNIEnv * p_Env, jclass p_Class)
+{
+  return p_Env->NewStringUTF(g_Info.Manufacturer);
+}
 
-  cout << "--------------------------" << endl;
+JNIEXPORT jint JNICALL Java_org_terasology_TeraOVR_getVersion
+  (JNIEnv *, jclass)
+{
+  return g_Info.Version;
+}
 
-  if (InfoLoaded)
-  {
-    cout << " DisplayDeviceName: " << Info.DisplayDeviceName << endl;
-    cout << " ProductName: " << Info.ProductName << endl;
-    cout << " Manufacturer: " << Info.Manufacturer << endl;
-    cout << " Version: " << Info.Version << endl;
-    cout << " HResolution: " << Info.HResolution<< endl;
-    cout << " VResolution: " << Info.VResolution<< endl;
-    cout << " HScreenSize: " << Info.HScreenSize<< endl;
-    cout << " VScreenSize: " << Info.VScreenSize<< endl;
-    cout << " VScreenCenter: " << Info.VScreenCenter<< endl;
-    cout << " EyeToScreenDistance: " << Info.EyeToScreenDistance << endl;
-    cout << " LensSeparationDistance: " << Info.LensSeparationDistance << endl;
-    cout << " InterpupillaryDistance: " << Info.InterpupillaryDistance << endl;
-    cout << " DistortionK[0]: " << Info.DistortionK[0] << endl;
-    cout << " DistortionK[1]: " << Info.DistortionK[1] << endl;
-    cout << " DistortionK[2]: " << Info.DistortionK[2] << endl;
-    cout << " DistortionK[3]: " << Info.DistortionK[3] << endl;
-    cout << "--------------------------" << endl;
-  }
+JNIEXPORT jint JNICALL Java_org_terasology_TeraOVR_getHResolution
+  (JNIEnv *, jclass)
+{
+  return g_Info.HResolution;
+}
 
-  cout << endl << " Press ENTER to continue" << endl;
+JNIEXPORT jint JNICALL Java_org_terasology_TeraOVR_getVResolution
+  (JNIEnv *, jclass)
+{
+  return g_Info.VResolution;
+}
 
-  cin.get();
+JNIEXPORT jfloat JNICALL Java_org_terasology_TeraOVR_getVScreenSize
+  (JNIEnv *, jclass)
+{
+  return g_Info.VScreenSize;
+}
 
-  while(pSensor)
-  {
-    Quatf quaternion = FusionResult.GetOrientation();
+JNIEXPORT jfloat JNICALL Java_org_terasology_TeraOVR_getVScreenCenter
+  (JNIEnv *, jclass)
+{
+  return g_Info.VScreenCenter;
+}
 
-    float yaw, pitch, roll;
-    quaternion.GetEulerAngles<Axis_Y, Axis_X, Axis_Z>(&yaw, &pitch, &roll);
+JNIEXPORT jfloat JNICALL Java_org_terasology_TeraOVR_getEyeToScreenDistance
+  (JNIEnv *, jclass)
+{
+  return g_Info.EyeToScreenDistance;
+}
 
-    cout << " Yaw: " << RadToDegree(yaw) << 
-      ", Pitch: " << RadToDegree(pitch) << 
-      ", Roll: " << RadToDegree(roll) << endl;
+JNIEXPORT jfloat JNICALL Java_org_terasology_TeraOVR_getLensSeparationDistance
+  (JNIEnv *, jclass)
+{
+  return g_Info.LensSeparationDistance;
+}
 
-    Sleep(50);
+JNIEXPORT jfloat JNICALL Java_org_terasology_TeraOVR_getInterpupillaryDistance
+  (JNIEnv *, jclass)
+{
+  return g_Info.InterpupillaryDistance;
+}
 
-    if (_kbhit()) exit(0);
-  }
+JNIEXPORT jfloat JNICALL Java_org_terasology_TeraOVR_getDistortitionK0
+  (JNIEnv *, jclass)
+{
+  return g_Info.DistortionK[0];
+}
+
+JNIEXPORT jfloat JNICALL Java_org_terasology_TeraOVR_getDistortitionK1
+  (JNIEnv *, jclass)
+{
+  return g_Info.DistortionK[1];
+}
+
+JNIEXPORT jfloat JNICALL Java_org_terasology_TeraOVR_getDistortitionK2
+  (JNIEnv *, jclass)
+{
+  return g_Info.DistortionK[2];
+}
+
+JNIEXPORT jfloat JNICALL Java_org_terasology_TeraOVR_getDistortitionK3
+  (JNIEnv *, jclass)
+{
+  return g_Info.DistortionK[3];
+}
+
+JNIEXPORT jfloat JNICALL Java_org_terasology_TeraOVR_getYaw
+  (JNIEnv *, jclass)
+{
+  if (!g_Sensor) return 0.0f;
+
+  Quatf quaternion = g_FusionResult.GetOrientation();
+  float yaw, pitch, roll;
+
+  quaternion.GetEulerAngles<Axis_Y, Axis_X, Axis_Z>(&yaw, &pitch, &roll);
+
+  return yaw;
+}
+
+JNIEXPORT jfloat JNICALL Java_org_terasology_TeraOVR_getPitch
+  (JNIEnv *, jclass)
+{
+  if (!g_Sensor) return 0.0f;
+
+  Quatf quaternion = g_FusionResult.GetOrientation();
+  float yaw, pitch, roll;
+
+  quaternion.GetEulerAngles<Axis_Y, Axis_X, Axis_Z>(&yaw, &pitch, &roll);
+
+  return pitch;
+}
+
+JNIEXPORT jfloat JNICALL Java_org_terasology_TeraOVR_getRoll
+  (JNIEnv *, jclass)
+{
+  if (!g_Sensor) return 0.0f;
+
+  Quatf quaternion = g_FusionResult.GetOrientation();
+  float yaw, pitch, roll;
+
+  quaternion.GetEulerAngles<Axis_Y, Axis_X, Axis_Z>(&yaw, &pitch, &roll);
+
+  return pitch;
 }
 
