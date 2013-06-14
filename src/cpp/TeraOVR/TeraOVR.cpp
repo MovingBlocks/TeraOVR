@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 
+#include "TeraOVR.h"
+
 #include "OVR.h"
 #include "jni.h"
 
@@ -23,14 +25,15 @@
 using namespace std;
 using namespace OVR;
 
-Ptr<DeviceManager>	pManager;
-Ptr<HMDDevice>		pHMD;
+Ptr<DeviceManager>pManager;
+Ptr<HMDDevice> pHMD;
 Ptr<SensorDevice>	pSensor;
-SensorFusion		FusionResult;
-HMDInfo			Info;
-bool			InfoLoaded;
+SensorFusion FusionResult;
+HMDInfo Info;
+bool InfoLoaded;
 
-void Init()
+JNIEXPORT void JNICALL Java_org_terasology_TeraOVR_initSDK
+  (JNIEnv *, jclass)
 {
   System::Init();
 

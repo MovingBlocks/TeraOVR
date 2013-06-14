@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jdk1.7.0_17\bin\javah.exe" -o C:\Users\Benjamin\Documents\GitHub\TeraOVR\src\cpp\TeraOVR\TeraOVR.h -classpath C:\Users\Benjamin\Documents\GitHub\TeraOVR\out\production\TeraOVR org.terasology.TeraOVR
