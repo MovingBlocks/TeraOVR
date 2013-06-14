@@ -62,7 +62,6 @@ local.properties
 *.vspscc
 .builds
 *.dotCover
-*.dll
 *.exp
 *.lib
 

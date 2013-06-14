@@ -6,28 +6,27 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="733798bf-8375-4bcc-b1cc-58190ae20095" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/org/terasology/TeraOVR.java" afterPath="$PROJECT_DIR$/src/java/org/terasology/TeraOVR.java" />
-    </list>
+    <list default="true" id="733798bf-8375-4bcc-b1cc-58190ae20095" name="Default" comment="" />
     <ignored path="TeraOVR.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371222262869" ignored="false" />
+    <file path="/Dummy.txt" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371232273541" ignored="false" />
     <file path="/TeraOVR.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371227665557" ignored="false" />
     <file path="/a.dummy" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371220825923" ignored="false" />
-    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/logic/manager/DefaultRenderingProcess.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371228947608" ignored="false" />
+    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/logic/manager/DefaultRenderingProcess.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371232207769" ignored="false" />
     <file path="/DefaultRenderingProcess.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371228946655" ignored="false" />
-    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/game/modes/StateSinglePlayer.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371228728870" ignored="false" />
-    <file path="/StateSinglePlayer.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371228726955" ignored="false" />
-    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/rendering/oculusVr/OculusVrHelper.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371228900139" ignored="false" />
-    <file path="/OculusVrHelper.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371228868040" ignored="false" />
-    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/game/TerasologyEngine.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371228779463" ignored="false" />
+    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/game/modes/StateSinglePlayer.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371231987180" ignored="false" />
+    <file path="/StateSinglePlayer.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371231978753" ignored="false" />
+    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/rendering/oculusVr/OculusVrHelper.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371231915798" ignored="false" />
+    <file path="/OculusVrHelper.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371231915458" ignored="false" />
+    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/game/TerasologyEngine.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371231939672" ignored="false" />
     <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/rendering/cameras/OculusStereoCamera.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371228986756" ignored="false" />
     <file path="/OculusStereoCamera.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371228985883" ignored="false" />
     <file path="$PROJECT_DIR$/../Terasology/libs/tera-ovr.jar!/org/terasology/TeraOVR.class" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371229096885" ignored="false" />
-    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/componentSystem/controllers/LocalPlayerSystem.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371230883361" ignored="false" />
-    <file path="/LocalPlayerSystem.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371230776590" ignored="false" />
+    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/componentSystem/controllers/LocalPlayerSystem.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371232184755" ignored="false" />
+    <file path="/LocalPlayerSystem.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371232016859" ignored="false" />
     <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/components/LocalPlayerComponent.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371229566262" ignored="false" />
     <file path="/LocalPlayerComponent.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371229565183" ignored="false" />
+    <file path="/TerasologyEngine.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371231934000" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
