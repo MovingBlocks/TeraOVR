@@ -199,6 +199,6 @@ JNIEXPORT jfloat JNICALL Java_org_terasology_TeraOVR_getRoll
 
   quaternion.GetEulerAngles<Axis_Y, Axis_X, Axis_Z>(&yaw, &pitch, &roll);
 
-  return pitch;
+  return roll;
 }
 

@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="733798bf-8375-4bcc-b1cc-58190ae20095" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cpp/TeraOVR/TeraOVR.h" afterPath="$PROJECT_DIR$/src/cpp/TeraOVR/TeraOVR.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/org/terasology/TeraOVR.java" afterPath="$PROJECT_DIR$/src/java/org/terasology/TeraOVR.java" />
     </list>
     <ignored path="TeraOVR.iws" />
@@ -15,12 +14,20 @@
     <file path="/Dummy.txt" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371222262869" ignored="false" />
     <file path="/TeraOVR.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371227665557" ignored="false" />
     <file path="/a.dummy" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371220825923" ignored="false" />
-    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/logic/manager/DefaultRenderingProcess.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371221855164" ignored="false" />
-    <file path="/DefaultRenderingProcess.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371221811754" ignored="false" />
-    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/game/modes/StateSinglePlayer.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371221913181" ignored="false" />
-    <file path="/StateSinglePlayer.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371221901273" ignored="false" />
-    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/rendering/oculusVr/OculusVrHelper.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371227614745" ignored="false" />
-    <file path="/OculusVrHelper.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371227607681" ignored="false" />
+    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/logic/manager/DefaultRenderingProcess.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371228947608" ignored="false" />
+    <file path="/DefaultRenderingProcess.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371228946655" ignored="false" />
+    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/game/modes/StateSinglePlayer.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371228728870" ignored="false" />
+    <file path="/StateSinglePlayer.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371228726955" ignored="false" />
+    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/rendering/oculusVr/OculusVrHelper.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371228900139" ignored="false" />
+    <file path="/OculusVrHelper.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371228868040" ignored="false" />
+    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/game/TerasologyEngine.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371228779463" ignored="false" />
+    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/rendering/cameras/OculusStereoCamera.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371228986756" ignored="false" />
+    <file path="/OculusStereoCamera.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371228985883" ignored="false" />
+    <file path="$PROJECT_DIR$/../Terasology/libs/tera-ovr.jar!/org/terasology/TeraOVR.class" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371229096885" ignored="false" />
+    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/componentSystem/controllers/LocalPlayerSystem.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371230883361" ignored="false" />
+    <file path="/LocalPlayerSystem.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371230776590" ignored="false" />
+    <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/components/LocalPlayerComponent.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371229566262" ignored="false" />
+    <file path="/LocalPlayerComponent.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371229565183" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +91,7 @@
       <file leaf-file-name="TeraOVR.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/org/terasology/TeraOVR.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="10" selection-start="326" selection-end="326" vertical-scroll-proportion="0.07608695">
+            <state line="41" column="118" selection-start="1711" selection-end="1711" vertical-scroll-proportion="-0.5974026">
               <folding />
             </state>
           </provider>
@@ -115,10 +122,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="2" />
-    <option name="width" value="1918" />
-    <option name="height" value="1158" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1278" />
+    <option name="height" value="758" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -414,10 +421,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="2" width="1918" height="1158" extended-state="0" />
+    <frame x="1" y="1" width="1278" height="758" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.55" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -430,7 +437,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38157895" sideWeight="0.45" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -507,7 +514,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/java/org/terasology/TeraOVR.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="326" selection-end="326" vertical-scroll-proportion="0.07608695">
+        <state line="41" column="118" selection-start="1711" selection-end="1711" vertical-scroll-proportion="-0.5974026">
           <folding />
         </state>
       </provider>

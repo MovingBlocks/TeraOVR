@@ -41,15 +41,13 @@ public class TeraOVR {
     public static native float getPitch();
     public static native float getRoll();
 
-    static {
-        if (System.getProperty("os.arch").contains("64")) {
-            System.loadLibrary("TeraOVR_x64");
-        } else {
-            System.loadLibrary("TeraOVR");
-        }
-    }
-
     public static void main(String[] args) {
+        if (System.getProperty("os.arch").contains("64")) {
+            System.loadLibrary("tera-ovr64");
+        } else {
+            System.loadLibrary("tera-ovr");
+        }
+
         initSDK();
 
         System.out.println(getDisplayDeviceName());
