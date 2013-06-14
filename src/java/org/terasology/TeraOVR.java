@@ -67,7 +67,8 @@ public class TeraOVR {
         System.out.println(getDistortitionK2());
         System.out.println(getDistortitionK3());
 
-        while (true) {
+
+        for (int i=0; i<100; ++i) {
             System.out.println("Yaw: " + getYaw() * (180.0f / Math.PI));
             System.out.println("Pitch: " + getPitch() * (180.0f / Math.PI));
             System.out.println("Roll: " + getRoll() * (180.0f / Math.PI));
@@ -77,5 +78,7 @@ public class TeraOVR {
             } catch (InterruptedException e) {
             }
         }
+
+        clear();
     }
 }

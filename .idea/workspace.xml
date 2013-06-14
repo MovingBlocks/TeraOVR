@@ -9,12 +9,13 @@
     <list default="true" id="733798bf-8375-4bcc-b1cc-58190ae20095" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/META-INF/MANIFEST.MF" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/tera_ovr_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/org/terasology/TeraOVR.java" afterPath="$PROJECT_DIR$/src/java/org/terasology/TeraOVR.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TeraOVR.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371216176867" ignored="false" />
-    <file path="/TeraOVR.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371220973051" ignored="false" />
+    <file path="/TeraOVR.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371222207471" ignored="false" />
     <file path="/a.dummy" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371220825923" ignored="false" />
     <file path="$PROJECT_DIR$/../Terasology/src/main/java/org/terasology/logic/manager/DefaultRenderingProcess.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371221855164" ignored="false" />
     <file path="/DefaultRenderingProcess.java" changelist="733798bf-8375-4bcc-b1cc-58190ae20095" time="1371221811754" ignored="false" />
@@ -84,7 +85,7 @@
       <file leaf-file-name="TeraOVR.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/org/terasology/TeraOVR.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="17" selection-start="1595" selection-end="1595" vertical-scroll-proportion="0.3167702">
+            <state line="70" column="35" selection-start="2700" selection-end="2700" vertical-scroll-proportion="0.98447204">
               <folding />
             </state>
           </provider>
@@ -410,9 +411,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="2" width="1918" height="1158" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -426,7 +427,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -501,7 +502,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/java/org/terasology/TeraOVR.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="17" selection-start="1595" selection-end="1595" vertical-scroll-proportion="0.3167702">
+        <state line="70" column="35" selection-start="2700" selection-end="2700" vertical-scroll-proportion="0.98447204">
           <folding />
         </state>
       </provider>
